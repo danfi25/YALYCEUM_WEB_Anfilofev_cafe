@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>{{posts.title}} - FastMoose</title>
+    <meta name="description" content="FastMoose - Fast Website">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Inter.css">
+    <link rel="stylesheet" href="../static/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+    <link rel="stylesheet" href="../static/css/untitled.css">
+</head>
+
+<body>
+<nav class="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-3" id="mainNav">
+    <div class="container">
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
+                class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <p><a href="/"><img src="../static/img/mmos.png"></a></p>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="team">Наша команда</a></li>
+                <li class="nav-item"><a class="nav-link active" href="products">Меню</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts">Контакты</a></li>
+                <li class="nav-item"><a class="nav-link" href="shopping-cart">Доставка</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="py-5 mt-5">
+    <div class="container py-5">
+        <div class="row mb-4 mb-lg-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto"><h2 class="fw-bold">{{posts.title}}</h2>
+            </div>
+        </div>
+        <div class="row mx-auto" style="/*max-width: 700px;*/">
+            <div class="col">
+                <div data-reflow-type="product-list" data-reflow-layout="cards" data-reflow-order="date_desc">
+                    <div class="reflow-product-list ref-cards">
+                        <div class="ref-products">
+                            <a class="ref-product"><img class="ref-image"
+                                                        src="{{ posts.link }}"
+                                                        loading="lazy"
+                                                        width="100%"/>
+                                <div class="ref-product-data">
+                                    <div class="ref-product-info">
+                                        <h5 class="ref-name">{{posts.title}}</h5>
+                                        <p class="ref-excerpt">{{posts.body}}</p>
+                                    </div>
+                                    <p class="ref-price">{{posts.price}}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-primary-gradient">
+    <div class="container py-4 py-lg-5">
+        <hr>
+        <div class="text-muted d-flex justify-content-between align-items-center pt-3">
+            <p class="mb-0"><strong>2022 «Быстрый лось»</strong><br><strong>Вкусно готовим, быстро
+                доставляем.</strong><br></p>
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/js/bs-init.js"></script>
+<script src="../static/js/bold-and-bright.js"></script>
+<script src="../static/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
+</body>
+
+</html>

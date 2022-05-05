@@ -1,0 +1,6 @@
+.btn-secondary {
+  color: black;
+  background-color: var(--bs-yellow);
+  border-color: var(--bs-yellow);
+}
+
