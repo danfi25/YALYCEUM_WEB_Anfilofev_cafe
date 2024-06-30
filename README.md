@@ -1,10 +1,10 @@
 # YALYCEUM_WEB_Anfilofev_cafe
-Сайт для небольшого кафе
+Website for a small cafe
 
 
-ТЗ:
-Сайт позволяющий посмотреть меню и рецепты ресторана; локацию ресторана, контактные данные итд. Возможность добавления новых блюд и рецептов в меню
-(flask)
+Task:
+A website that allows you to view the menu and recipes of the restaurant; the location of the restaurant, contact information, etc. The ability to add new dishes and recipes to the menu
+(by flask)
 
-добавление/удаление блюда производитсяч при помощи файлов в проекте
+adding/removing dishes is done using files in the project
 (create_post, delete_post)
